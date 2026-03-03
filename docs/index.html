@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Venue Trends Keynote — Hire Space</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --hs-green: #00A82C;
+    --hs-green-light: #53B04B;
+    --hs-dark: #282A30;
+    --hs-dark-mid: #3A3D45;
+    --hs-grey: #6B7280;
+    --hs-grey-light: #EBEDF0;
+    --hs-white: #FFFFFF;
+    --hs-off-white: #F7F9FC;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--hs-dark);
+    color: var(--hs-off-white);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .stat-box .number {
+    font-family: 'Nunito Sans', 'Open Sans', sans-serif;
+  }
+
+  /* ── Logo ── */
+  .hs-logo {
+    height: 32px;
+    width: auto;
+  }
+
+  .slide-logo {
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+    z-index: 10;
+  }
+
+  /* ── Title slide ── */
+  .title-slide {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, var(--hs-dark) 0%, #1a2e1f 50%, var(--hs-dark) 100%);
+    position: relative;
+  }
+
+  .title-slide::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: radial-gradient(ellipse at 30% 50%, rgba(0,168,44,0.08) 0%, transparent 60%),
+                radial-gradient(ellipse at 70% 50%, rgba(0,168,44,0.05) 0%, transparent 60%);
+    pointer-events: none;
+  }
+
+  .title-slide .title-logo {
+    height: 48px;
+    width: auto;
+    margin-bottom: 2.5rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .title-slide h1 {
+    font-size: 4.5rem;
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, var(--hs-off-white) 0%, var(--hs-green-light) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: relative;
+    z-index: 1;
+  }
+
+  .title-slide .subtitle {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: var(--hs-grey);
+    max-width: 700px;
+    line-height: 1.6;
+    position: relative;
+    z-index: 1;
+  }
+
+  .title-slide .stat-row {
+    display: flex;
+    gap: 3rem;
+    margin-top: 3rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .stat-box {
+    text-align: center;
+  }
+
+  .stat-box .number {
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--hs-green);
+    line-height: 1;
+  }
+
+  .stat-box .label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--hs-grey);
+    margin-top: 0.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  /* ── Content slides ── */
+  .slide {
+    min-height: 100vh;
+    padding: 3rem 5% 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+
+  .slide:nth-child(even) {
+    background: linear-gradient(180deg, var(--hs-dark) 0%, #1e2024 100%);
+  }
+
+  .slide-number {
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--hs-green);
+    opacity: 0.6;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .slide h2 {
+    font-size: 2.6rem;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+    margin-bottom: 0.4rem;
+    color: var(--hs-off-white);
+  }
+
+  .slide .slide-subtitle {
+    font-size: 1.15rem;
+    font-weight: 400;
+    color: var(--hs-grey);
+    margin-bottom: 2rem;
+  }
+
+  /* ── Chart centred, full width ── */
+  .chart-container {
+    background: var(--hs-dark);
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid var(--hs-dark-mid);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto 2.5rem;
+  }
+
+  .chart-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* ── 2x2 insight grid ── */
+  .insight-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem 2.5rem;
+    max-width: 1100px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .insight-card {
+    padding: 1.1rem 1.3rem;
+    border-left: 3px solid var(--hs-dark-mid);
+    font-size: 1rem;
+    line-height: 1.6;
+    color: rgba(247, 249, 252, 0.85);
+    transition: all 0.3s ease;
+    background: rgba(58, 61, 69, 0.2);
+    border-radius: 0 10px 10px 0;
+  }
+
+  .insight-card:hover {
+    border-left-color: var(--hs-green);
+    color: var(--hs-off-white);
+    background: rgba(58, 61, 69, 0.35);
+  }
+
+  .insight-card strong {
+    color: var(--hs-green);
+    font-weight: 700;
+  }
+
+  .insight-card em {
+    color: var(--hs-green-light);
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  /* ── Closing slide ── */
+  .closing-slide {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, var(--hs-dark) 0%, #1a2e1f 100%);
+    position: relative;
+  }
+
+  .closing-slide h2 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+    color: var(--hs-off-white);
+  }
+
+  .closing-slide p {
+    font-size: 1.3rem;
+    color: var(--hs-grey);
+    max-width: 600px;
+    line-height: 1.7;
+  }
+
+  .closing-slide .cta {
+    margin-top: 2.5rem;
+    padding: 1rem 2.5rem;
+    background: var(--hs-green);
+    color: var(--hs-dark);
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.2s;
+  }
+
+  .closing-slide .cta:hover {
+    background: var(--hs-green-light);
+  }
+
+  /* ── Keyboard nav ── */
+  .nav-hint {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 2rem;
+    font-size: 0.75rem;
+    color: var(--hs-grey);
+    opacity: 0.4;
+    z-index: 100;
+  }
+</style>
+</head>
+<body>
+
+<div class="nav-hint">Arrow keys or scroll to navigate</div>
+
+<!-- Title Slide -->
+<section class="title-slide" id="slide-0">
+  <div class="slide-logo"><img src="hs-logo-white.png" alt="Hire Space" class="hs-logo"></div>
+  <img src="hs-logo-white.png" alt="Hire Space" class="title-logo">
+  <h1>Venue Industry Trends</h1>
+  <p class="subtitle">Data-driven insights from 4,925 competitive analyses.<br>What venues get right, what they get wrong, and exactly how to fix it.</p>
+  <div class="stat-row">
+    <div class="stat-box">
+      <div class="number">4,925</div>
+      <div class="label">Proposals Analysed</div>
+    </div>
+    <div class="stat-box">
+      <div class="number">19,896</div>
+      <div class="label">Recommendations Read</div>
+    </div>
+    <div class="stat-box">
+      <div class="number">~25,000</div>
+      <div class="label">Competitor Quotes</div>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 1 -->
+<section class="slide" id="slide-1">
+  <div class="slide-logo"><img src="hs-logo-white.png" alt="Hire Space" class="hs-logo"></div>
+  <div class="slide-number">Slide 1 of 6</div>
+  <h2>Customer Budget vs What Venues Actually Quote</h2>
+  <p class="slide-subtitle">Are you pricing yourself out — or leaving money on the table?</p>
+  <div class="chart-container">
+    <img src="slide_1_budget_vs_quote.png" alt="Customer Budget vs What Venues Actually Quote" loading="lazy">
+  </div>
+  <div class="insight-grid">
+    <div class="insight-card">Corporate Events are overquoted by <strong>47%</strong> — the biggest mismatch in the dataset</div>
+    <div class="insight-card">Summer Parties are <em>under</em>quoted by 23% — venues are leaving revenue on the table</div>
+    <div class="insight-card">Christmas Parties hit the sweet spot: quotes land 5% below budget on average</div>
+    <div class="insight-card">Award Ceremonies: budgets of £30k meet quotes of £33k — close, but the premium hurts win rates</div>
+  </div>
+</section>
+
+<!-- Slide 2 -->
+<section class="slide" id="slide-2">
+  <div class="slide-logo"><img src="hs-logo-white.png" alt="Hire Space" class="hs-logo"></div>
+  <div class="slide-number">Slide 2 of 6</div>
+  <h2>How Budget Alignment Affects Win Rates</h2>
+  <p class="slide-subtitle">The closer you are to budget, the more you win. Every venue type.</p>
+  <div class="chart-container">
+    <img src="slide_2_budget_proximity.png" alt="How Budget Alignment Affects Win Rates" loading="lazy">
+  </div>
+  <div class="insight-grid">
+    <div class="insight-card">Across all venue types, quoting within 10% of budget wins <strong>+15pp</strong> more than quoting 50%+ over</div>
+    <div class="insight-card">Hotels show the starkest cliff: 47% win rate within budget → 21% when >50% over</div>
+    <div class="insight-card">Restaurants are most forgiving — even 10-50% over still holds 38%</div>
+    <div class="insight-card">Conference Centres win 44% when price-aligned but only 30% when >50% over budget</div>
+  </div>
+</section>
+
+<!-- Slide 3 -->
+<section class="slide" id="slide-3">
+  <div class="slide-logo"><img src="hs-logo-white.png" alt="Hire Space" class="hs-logo"></div>
+  <div class="slide-number">Slide 3 of 6</div>
+  <h2>What 19,896 Recommendations Actually Say</h2>
+  <p class="slide-subtitle">We read every single one. These are the patterns.</p>
+  <div class="chart-container">
+    <img src="slide_3_rec_themes.png" alt="What 19,896 Recommendations Actually Say" loading="lazy">
+  </div>
+  <div class="insight-grid">
+    <div class="insight-card"><strong>"Bundle AV into the DDR"</strong> — the single most common recommendation across all proposals</div>
+    <div class="insight-card">Tiered pricing (DDR tiers, drinks tiers) appears in over 3,400 recommendations</div>
+    <div class="insight-card">All-inclusive packaging and minimum-spend models dominate the top 5</div>
+    <div class="insight-card">Entertainment and experience add-ons are the fastest path to incremental revenue (£36k median annual impact)</div>
+  </div>
+</section>
+
+<!-- Slide 4 -->
+<section class="slide" id="slide-4">
+  <div class="slide-logo"><img src="hs-logo-white.png" alt="Hire Space" class="hs-logo"></div>
+  <div class="slide-number">Slide 4 of 6</div>
+  <h2>What Each Venue Type Is Being Told To Fix</h2>
+  <p class="slide-subtitle">Your venue type has a specific playbook. Here it is.</p>
+  <div class="chart-container">
+    <img src="slide_4_themes_by_vt.png" alt="What Each Venue Type Is Being Told To Fix" loading="lazy">
+  </div>
+  <div class="insight-grid">
+    <div class="insight-card"><strong>Conference Centres & Hotels:</strong> AV bundling is your #1 opportunity — 18% of all recs</div>
+    <div class="insight-card"><strong>Bars & Restaurants:</strong> minimum-spend models are your unlock — stop charging room hire</div>
+    <div class="insight-card"><strong>Historic Venues:</strong> you're being told to create all-inclusive packages to justify the premium</div>
+    <div class="insight-card"><strong>Rooftops & Outdoor:</strong> entertainment add-ons and late-licence upsells are your margin play</div>
+  </div>
+</section>
+
+<!-- Slide 5 -->
+<section class="slide" id="slide-5">
+  <div class="slide-logo"><img src="hs-logo-white.png" alt="Hire Space" class="hs-logo"></div>
+  <div class="slide-number">Slide 5 of 6</div>
+  <h2>What Each Event Type Demands From Venues</h2>
+  <p class="slide-subtitle">Different events need different fixes. Match your pitch to the brief.</p>
+  <div class="chart-container">
+    <img src="slide_5_themes_by_cat.png" alt="What Each Event Type Demands From Venues" loading="lazy">
+  </div>
+  <div class="insight-grid">
+    <div class="insight-card"><strong>Conferences:</strong> 24% of recs say bundle AV — planners want one number, not line items</div>
+    <div class="insight-card"><strong>Christmas Parties:</strong> festive packaging is the #1 ask — create tiered "Christmas Party" bundles</div>
+    <div class="insight-card"><strong>Summer Parties:</strong> entertainment add-ons dominate — DJs, photobooths, games</div>
+    <div class="insight-card"><strong>Award Ceremonies:</strong> AV + all-inclusive packages — they need turnkey production, not à la carte</div>
+  </div>
+</section>
+
+<!-- Slide 6 -->
+<section class="slide" id="slide-6">
+  <div class="slide-logo"><img src="hs-logo-white.png" alt="Hire Space" class="hs-logo"></div>
+  <div class="slide-number">Slide 6 of 6</div>
+  <h2>The Budget Reality Gap</h2>
+  <p class="slide-subtitle">Where exactly are venues over- and under-quoting?</p>
+  <div class="chart-container">
+    <img src="slide_6_budget_ratio.png" alt="The Budget Reality Gap" loading="lazy">
+  </div>
+  <div class="insight-grid">
+    <div class="insight-card"><strong>Biggest overquoters:</strong> Historic Venues on Award Ceremonies (1.23x) and Outdoor on Corporate Events (1.12x)</div>
+    <div class="insight-card"><strong>Biggest underquoters:</strong> Conference Centres on Summer Parties (0.77x) — pricing 23% below budget</div>
+    <div class="insight-card">Hotels overquote on Conferences by 20% — but win 36% vs. 42% average</div>
+    <div class="insight-card">The green cells are your opportunity: you're <em>under</em> budget and could charge more</div>
+  </div>
+</section>
+
+<!-- Closing Slide -->
+<section class="closing-slide" id="slide-closing">
+  <div class="slide-logo">{HS_LOGO_IMG}</div>
+  {HS_LOGO_TITLE}
+  <h2>Your Next Move</h2>
+  <p>Every one of these insights is actionable today. The venues that align pricing to budgets, bundle AV into their DDR, and create transparent packages will win more — starting this quarter.</p>
+</section>
+
+<script>
+  // Keyboard navigation
+  const slides = document.querySelectorAll('section');
+  let current = 0;
+
+  function goTo(idx) {
+    idx = Math.max(0, Math.min(idx, slides.length - 1));
+    slides[idx].scrollIntoView({ behavior: 'smooth' });
+    current = idx;
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowDown' || e.key === 'ArrowRight' || e.key === ' ') {
+      e.preventDefault();
+      goTo(current + 1);
+    } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
+      e.preventDefault();
+      goTo(current - 1);
+    }
+  });
+
+  // Track scroll position for current slide
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        current = Array.from(slides).indexOf(entry.target);
+      }
+    });
+  }, { threshold: 0.5 });
+
+  slides.forEach(s => observer.observe(s));
+</script>
+</body>
+</html>
