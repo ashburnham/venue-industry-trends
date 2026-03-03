@@ -21,7 +21,7 @@ import matplotlib.patheffects as pe
 import numpy as np
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-OUT_DIR = os.path.join(BASE_DIR, "keynote")
+OUT_DIR = os.path.join(BASE_DIR, "docs")
 os.makedirs(OUT_DIR, exist_ok=True)
 
 # ── Hire Space Brand ──────────────────────────────────────────────────────────
