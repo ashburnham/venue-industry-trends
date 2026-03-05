@@ -1,5 +1,5 @@
-# Venue Industry Trends — Speaker Notes
-## TED-style delivery guide
+# Venue Trends & Tools — Speaker Notes
+## Delivery guide
 
 ---
 
@@ -7,11 +7,13 @@
 
 **Walk on, pause, let the numbers land.**
 
-"We analysed nearly five thousand competitive proposals. Every quote, every competitor, every recommendation. And we read — actually read — all twenty thousand recommendations that our AI generated for venues.
+"Thank you all for being here — you're a specially invited group of our most valued venue partners, and we wanted to share something with you first.
 
-What we found is both simple and uncomfortable: the gap between what customers want to pay and what venues charge is the single biggest predictor of whether you win or lose. And most venues are on the wrong side of it.
+We analysed nearly five thousand competitive proposals. Every quote, every competitor, every recommendation. And we read — actually read — all twenty thousand recommendations that our Intelligence platform generated.
 
-Let me show you exactly where."
+What we found is a genuine opportunity for the venues in this room. The patterns are clear, the playbooks are specific, and the insights we're about to share are exclusive to Hire Space partners.
+
+Let me show you where the opportunities are."
 
 **[CLICK to Slide 1]**
 
@@ -19,37 +21,35 @@ Let me show you exactly where."
 
 ## SLIDE 1: Budget vs Quote — 2 minutes
 
-**Key message: The market is telling you what it wants to pay. Are you listening?**
+**Key message: The market is signalling what it wants to pay. Here's how to use that.**
 
-"This is the most important chart in this entire presentation. Green bars are what your customers tell us they want to spend. Blue bars are what venues actually quote.
+"This is the most important chart in this entire presentation. Green bars are what customers tell us they want to spend. Blue bars are what venues actually quote.
 
-Look at Corporate Events — venues are overshooting by forty-seven percent. Nearly half above budget. That's not premium pricing, that's pricing yourself out of the conversation before it starts.
+Corporate Events have the biggest pricing gap — forty-seven percent. That's not a criticism — it's the biggest opportunity in the data. Restructure the package, and you move into the sweet spot.
 
-Now look at Summer Parties — the opposite problem. Venues are quoting twenty-three percent *under* budget. The customer was ready to spend more. That's money left on the table.
+Now look at Summer Parties — the opposite. Venues are quoting twenty-three percent *under* budget. Customers are ready to spend more here. That's untapped revenue.
 
-Christmas Parties? That's the sweet spot. Five percent below budget. Close enough to feel competitive, with enough room to upsell drinks packages and entertainment.
+Christmas Parties? That's the formula to replicate. Five percent below budget. Close enough to feel competitive, with room to upsell drinks packages and entertainment.
 
-The lesson is simple: know your category's budget expectations and price to them."
+The insight is simple: know your category's budget expectations and price to them. And as our partners, you'll get this data specific to your venue."
 
 **[CLICK to Slide 2]**
 
 ---
 
-## SLIDE 2: Budget Proximity & Win Rates — 2 minutes
+## SLIDE 2: Budget Alignment & Win Rates — 2 minutes
 
-**Key message: Every venue type sees the same pattern. Price alignment = wins.**
+**Key message: The top-performing venues price to the sweet spot.**
 
-"Now let's make this concrete. We split every proposal into four buckets based on how close the quote was to the customer's budget. And we did this for every venue type separately.
+"Now let's make this concrete. We split every proposal into four buckets based on how close the quote was to budget. And we did this for every venue type separately.
 
-The pattern is universal. Look at Hotels — forty-seven percent win rate when you're within ten percent of budget. Twenty-one percent when you're more than fifty percent over. That's not a gentle decline. That's a cliff.
-
-Conference Centres — forty-four percent drops to thirty percent. Bars — forty-five to thirty-one.
+The pattern is universal. Hotels that nail pricing alignment win forty-seven percent of the time. Conference Centres jump from thirty to forty-four percent by aligning to budget. That's a fourteen percentage point lift — from one change.
 
 *[Pause]*
 
-I want to be clear: I'm not saying race to the bottom. Being *under* budget doesn't always win more than being *at* budget. The sweet spot is plus or minus ten percent. That's where you're taken seriously as an option.
+I want to be clear: this isn't about racing to the bottom. Being *under* budget doesn't always win more than being *at* budget. The sweet spot is plus or minus ten percent. That's where you're taken seriously as an option.
 
-The question for every venue operator in this room: do you know where your quotes land relative to budget on every proposal? Because your competitors do."
+And the great news is — this is completely within your control. We can help you see exactly where your quotes land relative to budget on every proposal."
 
 **[CLICK to Slide 3]**
 
@@ -57,101 +57,127 @@ The question for every venue operator in this room: do you know where your quote
 
 ## SLIDE 3: What 19,896 Recommendations Say — 2 minutes
 
-**Key message: We read every recommendation. The patterns are clear.**
+**Key message: The winning patterns are clear. Here's what top venues do differently.**
 
-"Here's where it gets tactical. Our system generates specific recommendations for every proposal — what the venue should change, add, or restructure to win more.
+"Here's where it gets tactical. Our Intelligence platform generates specific, tailored recommendations for every proposal — what to adjust, add, or restructure to win more. These are personalised to each venue and each brief.
 
-We didn't just count categories. We read all twenty thousand of them and classified them into concrete action themes.
+We looked at all twenty thousand of them in aggregate, and the patterns are striking.
 
 *[Point to top bar]*
 
-Number one: bundle your AV into the day delegate rate or package price. This comes up over and over. Planners don't want a separate AV line item. They want one number. 'Your conference costs this much, everything's included.'
+Number one: bundle your AV into the package price. We know many venues separate AV deliberately — and there are good reasons for that. But the data is clear: when it's bundled into a single price, planners perceive better value and venues win more. It's worth testing.
 
-Number two and three: tiered pricing. Give them three options — essential, standard, premium. Let *them* choose the price point rather than you guessing.
+Number two and three: tiered pricing. Give customers three options — essential, standard, premium. Let *them* choose the price point rather than you guessing.
 
-And look at the revenue impact numbers on the right — these aren't theoretical. Tiered DDR pricing has a median estimated annual impact of fifty thousand pounds per venue. All-inclusive packaging: fifty thousand. Bundling AV: forty-five thousand.
+And look at the revenue impact — these aren't theoretical. Tiered DDR pricing has a median estimated annual impact of fifty thousand pounds per venue. All-inclusive packaging: fifty thousand. Bundling AV: forty-five thousand.
 
-These are specific, costed changes. Not aspirational strategy."
+These are specific, costed opportunities — and as our partners, you get these recommendations tailored to your specific venue."
 
 **[CLICK to Slide 4]**
 
 ---
 
-## SLIDE 4: Themes by Venue Type — 2 minutes
+## SLIDE 4: Your Venue Type's Winning Playbook — 2 minutes
 
-**Key message: Your venue type has a specific playbook.**
+**Key message: Each venue type has specific opportunities.**
 
-"Now here's where it gets personal. This heatmap shows which recommendations come up most for each venue type.
+"Now here's where it gets personal. This heatmap shows which opportunities come up most for each venue type.
 
 *[Point to Conference Centre row]*
 
-Conference Centres and Hotels: your number one action is AV bundling. Eighteen percent of all recommendations for your venue type say the same thing. Stop charging AV as a line item. Bundle it.
+Conference Centres and Hotels: AV bundling is your number one opportunity. Eighteen percent of all recommendations for your venue type point here. The venues winning most in this category are the ones offering one simple, all-in number.
 
 *[Point to Bar/Restaurant rows]*
 
-Bars and Restaurants: your playbook is different. It's minimum-spend models. Stop charging room hire. Convert to 'spend three thousand on food and drink and the space is yours.' That's how your customers want to buy.
+Bars and Restaurants: your playbook is different. Minimum-spend models are your unlock. 'Spend three thousand on food and drink and the space is yours.' That's how your customers *want* to buy — and the data backs it up.
 
 *[Point to Historic Venue row]*
 
-Historic Venues: you're sitting on premium spaces but quoting like everyone else. The recommendation? All-inclusive packages. Justify your premium by wrapping everything — room, AV, catering, service — into one impressive number.
+Historic Venues: you're sitting on incredible premium spaces. All-inclusive packages let you own that premium positioning. Wrap everything — room, AV, catering, service — into one impressive number.
 
 *[Point to Rooftop/Outdoor rows]*
 
-Rooftops and Outdoor venues: entertainment add-ons and late-licence extensions. That's your margin play. The space sells itself. Your upside is in what happens *inside* the space.
+Rooftops and Outdoor venues: entertainment add-ons and late-licence extensions. The space sells itself. Your upside is in what happens *inside* the space.
 
-Every venue type in this room has a different top priority. Know yours."
+Every venue type in this room has a different top priority. And we can help you identify yours."
 
 **[CLICK to Slide 5]**
 
 ---
 
-## SLIDE 5: Themes by Event Type — 2 minutes
+## SLIDE 5: Matching Your Pitch to the Brief — 2 minutes
 
-**Key message: Different events need different fixes. Match your pitch.**
+**Key message: Different events unlock different revenue. Tailor the offer.**
 
-"Same data, different cut. This time by event type.
+"Same data, different cut. This time by event type — so you can tailor your pitch to every brief that comes in.
 
 *[Point to Conferences row]*
 
-Conferences: twenty-four percent of all recommendations say bundle AV. Planners are comparing you to venues that include a screen, mics, and a tech person in the day rate. If you don't, you look expensive *and* complicated.
+Conferences: twenty-four percent of all recommendations say bundle AV. Planners are comparing you to venues that include a screen, mics, and a tech person in the day rate. Match that, and you're immediately more competitive.
 
 *[Point to Christmas Parties row]*
 
-Christmas Parties: the number one recommendation is to create specific festive packages. Not 'our space is available in December.' But 'The Christmas Soirée: three hours of drinks, canapés, DJ, and a photobooth for eighty pounds a head.' Name it, price it, done.
+Christmas Parties: the number one opportunity is specific festive packages. Not 'our space is available in December.' But 'The Christmas Soirée: three hours of drinks, canapés, DJ, and a photobooth for eighty pounds a head.' Name it, price it, done.
 
 *[Point to Summer Parties row]*
 
-Summer Parties: entertainment dominates. DJs, photobooths, lawn games, mixology stations. The venue is the backdrop — the *experience* is what wins.
+Summer Parties: entertainment wins the brief. DJs, photobooths, lawn games, mixology stations. The venue is the backdrop — the *experience* is what closes the deal.
 
 *[Point to Award Ceremonies row]*
 
-Award Ceremonies: it's AV plus all-inclusive. These are production-heavy events. The planner needs to know you can deliver the whole thing — not just the room.
+Award Ceremonies: AV plus all-inclusive. These are production-heavy events. The planner needs to know you can deliver the whole thing — turnkey production is what they're looking for.
 
-The takeaway: when a brief comes in, your first question should be 'what does *this event type* need from us?' — not 'what's our standard package?'"
+The takeaway: when a brief comes in, your first question should be 'what does *this event type* need from us?' Our Intelligence platform does this for you automatically."
 
 **[CLICK to Slide 6]**
 
 ---
 
-## SLIDE 6: The Budget Reality Gap — 2 minutes
+## SLIDE 6: Your Pricing Opportunity Map — 2 minutes
 
-**Key message: The heatmap shows you exactly where to adjust.**
+**Key message: This is your cheat sheet. Green = charge more. Red = restructure.**
 
-"This is your cheat sheet. Green means you're under budget — room to charge more. Red means you're over — and probably losing because of it.
+"This is your venue-by-venue, event-by-event pricing opportunity map.
 
-*[Point to the darkest red cell]*
-
-Historic Venues on Award Ceremonies: quoting at 1.23 times budget. Twenty-three percent over. And the win rate on these is in the low thirties. That's the data telling you to restructure the offer.
+Green means you're under budget — there's room to charge more. Red means there's a gap to close — and restructuring the package is usually the answer.
 
 *[Point to green cells]*
 
-Now look at the green. Conference Centres on Summer Parties: quoting at 0.77 times budget. That's *twenty-three percent under*. The customer wanted to spend more. Create a premium package, add entertainment, extend the hours — you've got headroom.
+Conference Centres on Summer Parties: quoting at 0.77 times budget. That's twenty-three percent under. The customer wanted to spend more. Create a premium package, add entertainment, extend the hours — you've got headroom.
 
-Hotels on Conferences: 1.20 times budget. You're pricing twenty percent above what the customer planned. That's why hotel conference win rates lag behind dedicated conference centres.
+*[Point to red cells]*
+
+Historic Venues on Award Ceremonies: 1.23 times budget. Repackaging here — perhaps an all-inclusive production bundle — can move the needle significantly.
+
+*[Point to Hotels on Conferences]*
+
+Hotels on Conferences: 1.20 times budget. This is where AV bundling makes an immediate difference. Bundle it into the rate, the gap closes, and win rates lift.
 
 *[Scan the heatmap]*
 
-This is a venue-by-venue, event-by-event pricing map. Screenshot it. Take it to your revenue meeting on Monday. Adjust the cells that are red. Upsell the cells that are green."
+Every green cell is untapped revenue. Every red cell is a package restructure away from more wins. And as our partners, you'll be able to see this for *your specific venue* — not just the market average."
+
+**[CLICK to Slide 7]**
+
+---
+
+## SLIDE 7: Tools We're Using & Recommending — 90 seconds
+
+**Key message: Practical AI tools that venues can use right now.**
+
+"Before we wrap up the trends section, I want to quickly share four AI tools we're using and recommending to our partners. These are practical, available now, and saving venue teams hours every week.
+
+*[Point to each card]*
+
+Fyxer — lives right inside your Gmail or Outlook. It learns your tone from your past emails and writes draft replies for you. Organises your inbox, tracks follow-ups. For venue sales teams handling dozens of enquiries a day, this is a game-changer.
+
+Granola — meeting notes without the awkwardness. No bot joins your call, no 'this meeting is being recorded' moment with clients. It captures the audio from your device, and afterwards you can search your notes like Google. They've just raised forty-three million — this one's serious.
+
+Clay — think of it as an AI research assistant. Build a prospect list of every corporate events booker in your city and send each a personalised pitch, automatically. A hundred and fifty plus data sources, and their AI agent does the research for you.
+
+Opus Clip — every venue has event footage sitting on a hard drive somewhere. This watches your video and automatically cuts it into Reels and TikTok clips. You're sitting on a goldmine of content you're not using.
+
+We'll share links to all of these afterwards."
 
 **[CLICK to Closing]**
 
@@ -161,33 +187,36 @@ This is a venue-by-venue, event-by-event pricing map. Screenshot it. Take it to 
 
 **Slow down. Make eye contact.**
 
-"Let me leave you with one number. Fifteen percentage points.
+"These insights are just the surface of what's available to you as Hire Space partners.
 
-That's the difference in win rate between venues that quote within ten percent of budget and those that quote more than fifty percent over. Fifteen points.
+We're leading with Intelligence technology — and these insights are exclusive to our venue partners. No one else in the market is giving venues this level of data on how to price, package, and position to win.
 
-Every other insight in this presentation — the AV bundling, the tiered DDR, the festive packages, the minimum-spend models — they all serve the same goal: getting you into that sweet spot where your quote matches what the customer expects to pay.
+What we've shown you today is the aggregate view. But every single one of these insights can be run for *your specific venue*. Your pricing position against competitors, your win rate patterns, your personalised recommendations — all available through Intelligence.
 
-The data is clear. The playbooks are specific to your venue type and the events you're bidding on. And the changes are implementable this quarter.
+We have a full demo of Intelligence coming up next. And if you want to go deeper on your specific venue, we're here all day — grab one of the team and we'll book in a 1-to-1 deep dive on the spot.
 
-Thank you."
+We're here to help you win more business. Thank you."
 
-*[Hold. Don't rush off.]*
+*[Hold. Smile. You're handing off to the Intelligence demo.]*
 
 ---
 
 ## Q&A PREP — Likely questions
 
 **"Is cheaper always better?"**
-No. The data shows the sweet spot is *at* budget, not below it. Being 10-20% under budget doesn't win significantly more than being at budget. The cliff is on the *over* side.
+No. The data shows the sweet spot is *at* budget, not below it. Being 10-20% under budget doesn't win significantly more than being at budget. The opportunity is on the *over* side — that's where restructuring the package makes the biggest difference.
 
-**"Our venue is premium — won't lowering price devalue us?"**
-The recommendation isn't to lower price. It's to restructure the *offer* so the total lands near budget. Bundle more in, create tiers, offer a smaller space option. The per-person value can stay premium.
+**"Our venue is premium — won't this devalue us?"**
+Not at all. The recommendation isn't to lower price. It's to restructure the *offer* so the total lands near budget. Bundle more in, create tiers, offer a smaller space option. The per-person value stays premium — you're just packaging it so the customer sees one number they're comfortable with.
+
+**"How do we get these insights for our specific venue?"**
+That's exactly what Intelligence does — and there's a full demo coming up next. We can also book you in for a 1-to-1 deep dive today.
 
 **"How reliable are the win probability scores?"**
 They're AI-estimated based on the competitive set, pricing position, offering match, and brief alignment. They're directionally reliable across 4,925 proposals — individual scores vary, but the aggregate patterns are robust.
 
-**"What about venues that don't have a category listed?"**
-About 39% of records don't have a highLevelEventCategory. These are included in overall stats but excluded from category-specific analysis. The category-specific insights are based on 3,010 categorised proposals.
+**"What about the AV point — we have good reasons for charging AV separately?"**
+Totally understood — and there are valid operational reasons for it. The data simply shows that planners perceive better value when it's bundled, and win rates are higher. It's worth testing on a subset of proposals to see the impact for your specific venue.
 
 **"What's the sample size for [specific cell in heatmap]?"**
 All heatmap cells require a minimum of 10 proposals. If a cell is empty, there wasn't enough data. The largest cells (Conference Centre × Conferences) have 500+ proposals.
